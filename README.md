@@ -1,8 +1,6 @@
-<div align="center" style="display: flex; justify-content: center; align-items: center">
+<div align="center">
   <img src="./client/public/icon.svg" alt="LimGPT Logo" width="24" height="24" style="vertical-align: middle">
-  <a href="https://lim-gpt.app.genez.io/" target="_blank">
   <h2 style="display: inline-block; margin-left: 8px">LimGPT</h2>
-  </a>
 </div>
 
 --- 
