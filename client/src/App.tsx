@@ -33,7 +33,7 @@ function App() {
 
   const messageListRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = "https://0f7aa789-a572-46ca-848f-7767a70a43cd.us-east-1.cloud.genez.io";
 
   // Load saved conversations and active thread from localStorage
   useEffect(() => {

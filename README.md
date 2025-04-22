@@ -1,12 +1,22 @@
-# LimGPT
+<div align="center" style="display: flex; justify-content: center; align-items: center">
+  <img src="./client/public/icon.svg" alt="LimGPT Logo" width="24" height="24" style="vertical-align: middle">
+  <a href="https://lim-gpt.app.genez.io/" target="_blank">
+  <h2 style="display: inline-block; margin-left: 8px">LimGPT</h2>
+  </a>
+</div>
 
-LimGPT is a modern, responsive web-based chat interface powered by Google's Gemini AI. It provides a clean, intuitive interface similar to ChatGPT but with enhanced features and local conversation storage.
+--- 
 
-![LimGPT Interface](screenshot.png)
+<a href="https://lim-gpt.app.genez.io/" target="_blank">LimGPT</a>
+ is a modern, responsive web-based chat interface powered by Google's Gemini AI. It provides a clean, intuitive interface similar to ChatGPT but with enhanced features and local conversation storage.
+
+![LimGPT Interface](./client/public/screenshot-1.png)
+![LimGPT Interface](./client/public/screenshot.png)
 
 ## Features
 
 - 🚀 Real-time AI responses using Gemini 2.0 Flash
+- 💻 Javascript code execution functionality
 - 💾 Local storage for chat history
 - 📱 Responsive design for both desktop and mobile
 - 🎨 Clean, modern UI with dark mode
@@ -123,10 +133,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Google Gemini AI for providing the language model
 - LangChain for the AI agent framework
 - React and Vite communities for excellent development tools
-
-## Contact
-
-Wei Jen Lim - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/LimWeiJen/lim-gpt](https://github.com/LimWeiJen/lim-gpt)
-

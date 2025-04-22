@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 
+const port = 3000;
+
 const evalAndCaptureOutput = async (code: string) => {
 	const oldLog = console.log;
 	const oldError = console.error;
@@ -38,4 +40,4 @@ app.post('/', async (req, res) => {
 	res.json(result);
 })
 
-app.listen(3000, () => console.log("Server Running at 3000"))
+app.listen(port, () => console.log("Server Running at 3000"))
